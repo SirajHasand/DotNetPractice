@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Specialized;
+using System.Text;
 
 class Program
 {
@@ -17,5 +19,9 @@ class Program
         Console.WriteLine($"The product of {a} and {b} is: {product }");
         int sum = x - y;
         Console.WriteLine($"The difference of {x} and {y} is: {sum}"); 
+        string name = "Alice";
+        Console.WriteLine($"Hello, {name}!");
+        string greeting = "Welcome to C# programming!";
+        Console.WriteLine(greeting);
     }
 }
