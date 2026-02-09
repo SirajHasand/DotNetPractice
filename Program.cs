@@ -10,5 +10,7 @@ class Program
         int y = 20;
         int sum = x - y;
         Console.WriteLine($"The difference of {x} and {y} is: {sum}"); 
+        string name = "Alice";
+        Console.WriteLine($"Hello, {name}!");
     }
 }
