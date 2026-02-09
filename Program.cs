@@ -11,5 +11,10 @@ class Program
         int y = 20;
         int sum = x + y;
         Console.WriteLine($"The sum of {x} and {y} is: {sum}"); 
+
+        double a = 5.5;
+        double b = 2.3; 
+        double product = a * b;
+        Console.WriteLine($"The product of {a} and {b} is: {product }");
     }
 }
