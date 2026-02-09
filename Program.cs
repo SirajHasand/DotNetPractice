@@ -16,5 +16,8 @@ class Program
         double b = 2.3; 
         double product = a * b;
         Console.WriteLine($"The product of {a} and {b} is: {product }");
+        string jobTitle = "Software Developer";
+        Console.WriteLine($"I am a {jobTitle}.");
+    
     }
 }
