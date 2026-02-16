@@ -12,6 +12,10 @@ class Csharp
         var dict = new Dictionary<string, string>();
         dict.Add("key1", "value1");
         dict.Add("key2", "value2");
+        foreach (var kvp in dict)
+        {
+            Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
+        }
 
     }
 }
