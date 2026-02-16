@@ -9,5 +9,7 @@ class Csharp
     static void Main()
     {
         Console.WriteLine("------------------this is the C Sharp branch  ------------------ ");
+        var dict = new Dictionary<string, string>();
+        dict.Add("key1", "value1");
     }
 }
