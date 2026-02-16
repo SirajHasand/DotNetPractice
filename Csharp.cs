@@ -9,6 +9,7 @@ class Csharp
     public static void Main ()
     {
         Console.WriteLine("Hello, World!");
-        
+        var dict = new Dictionary<string, string>();
+
     }
 }
