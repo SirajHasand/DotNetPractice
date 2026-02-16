@@ -6,10 +6,9 @@ using System.Text;
 
 class Csharp
 {
-    static void Main()
+    public static void Main ()
     {
-        Console.WriteLine("------------------this is the C Sharp branch  ------------------ ");
-        var dict = new Dictionary<string, string>();
-        dict.Add("key1", "value1");
+        Console.WriteLine("Hello, World!");
+        
     }
 }
