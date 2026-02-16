@@ -26,6 +26,8 @@ class Csharp
         {
             Console.WriteLine($"Error parsing number: {ex.Message}");
         }
+        Console.WriteLine("Press any key to exit...");
+        Console.ReadKey();
 
     }
 }
