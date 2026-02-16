@@ -10,6 +10,7 @@ class Csharp
     {
         Console.WriteLine("Hello, World!");
         var dict = new Dictionary<string, string>();
+        dict.Add("key1", "value1");
 
     }
 }
