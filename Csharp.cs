@@ -16,7 +16,16 @@ class Csharp
         {
             Console.WriteLine($"Key: {kvp.Key}, Value: {kvp.Value}");
         }
-        
+
+        try
+        {
+            int number = int.Parse("123");
+            Console.WriteLine($"Parsed number: {number}");
+        }
+        catch (FormatException ex)
+        {
+            Console.WriteLine($"Error parsing number: {ex.Message}");
+        }
 
     }
 }
