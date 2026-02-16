@@ -11,6 +11,7 @@ class Csharp
         Console.WriteLine("Hello, World!");
         var dict = new Dictionary<string, string>();
         dict.Add("key1", "value1");
+        dict.Add("key2", "value2");
 
     }
 }
