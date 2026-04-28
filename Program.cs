@@ -1,42 +1,22 @@
 using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Globalization;
-using System.Text;
 
-class Program
+namespace MyApp;
+
+
+public class Program
 {
-    static void Main()
+    static void Main(string[] args)
     {
-        Console.WriteLine("------------------welcome to C# 10.0 ------------------ ");
-       
-        //List
-        var num = new List<int>(){11,22,33,44,55,66,77};
-        num.Add(88);
-        num.AddRange(new int[3]{32,32,99});
+        // var dbMigrator = new DbMigrator(new Logger());
 
-        foreach(var n in num)
-        {
-            Console.Write(n + " ");
-        }
-        //DateTime
-        var now = DateTime.Now;
-        Console.WriteLine();
-        Console.WriteLine("the time is: "+ now);
-        Console.WriteLine("hour : "+ now.Hour);
-        Console.WriteLine("min : "+ now.Minute);
-        Console.WriteLine("second : "+ now.Second);
+        // var logger = new Logger();
+        // var isntaller = new Installer(logger);
 
-        //String & StringBuilders 
-        Console.WriteLine("------------------String & String Builder ------------------");
+        // dbMigrator.Migrate();
+        // isntaller.Install();
 
-        var builder = new StringBuilder();
-        builder.Append('-',10);
+        var car = new Car("ADF3432");
         
-        Console.WriteLine(builder);
-
-        Console.WriteLine("main branch");
-        Console.WriteLine("Hello, World!");
-        Console.WriteLine("test Branch");
     }
+
 }
