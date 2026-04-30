@@ -35,6 +35,19 @@ namespace EmployeeAdminPortal.Controllers
             dbContext.SaveChanges();
             return Ok(departmentEntity);
         }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateDepartment(int id, UpdateDepartmentDto updateDepartmentDto)
+        {
+            var departmentEntity = dbContext.Departments.Include(x => x.Employees).FirstOrDefault(x => x.Id == id);
+            if (departmentEntity == null)
+            {
+                return NotFound();
+            }
+            departmentEntity.DepartmentName = updateDepartmentDto.DepartmentName;
+            dbContext.SaveChanges();
+            return Ok(departmentEntity);
+        }
     }
 
     public class AddDepartmentDto
