@@ -12,4 +12,6 @@ public class AddEmployeeDto
 
     public decimal Salary { get; set; }
 
+    public required Guid DepartmentId { get; set; }
+
 }

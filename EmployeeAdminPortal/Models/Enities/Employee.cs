@@ -13,5 +13,8 @@ public class Employee
 
     public decimal Salary { get; set; }
 
+    public required Guid DepartmentId { get; set; }
+    public  Department Department { get; set; }
+
 
 }

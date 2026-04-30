@@ -32,7 +32,9 @@ namespace EmployeeAdminPortal.Controllers
                 Name = addEmployeeDto.Name,
                 Email = addEmployeeDto.Email,
                 Phone = addEmployeeDto.Phone,
-                Salary = addEmployeeDto.Salary
+                Salary = addEmployeeDto.Salary,
+                DepartmentId = addEmployeeDto.DepartmentId
+                
             };
              dbContext.Employees.Add(employeeEntity);
             dbContext.SaveChanges();
@@ -66,6 +68,7 @@ namespace EmployeeAdminPortal.Controllers
             employee.Email = updateEmployeeDto.Email;   
             employee.Phone = updateEmployeeDto.Phone;
             employee.Salary = updateEmployeeDto.Salary;
+            employee.DepartmentId = updateEmployeeDto.DepartmentId;
             dbContext.SaveChanges();
             return Ok(employee);
             
