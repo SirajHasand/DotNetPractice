@@ -60,6 +60,16 @@ namespace EmployeeAdminPortal.Controllers
             dbContext.SaveChanges();
             return Ok(departmentEntity);
         }
+        [HttpGet("{id}")]
+        public IActionResult GetDepartmentById(int id)
+        {
+            var departmentEntity = dbContext.Departments.Include(x => x.Employees).FirstOrDefault(x => x.Id == id);
+            if (departmentEntity == null)
+            {
+                return NotFound();
+            }
+            return Ok(departmentEntity);
+        }
     }
 
     public class AddDepartmentDto
