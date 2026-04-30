@@ -10,7 +10,7 @@ namespace EmployeeAdminPortal.Controllers
     [ApiController]
     public class DepartmentController : ControllerBase
     {
-       DepartmentController(ApplicationDbContext dbContext)
+       public DepartmentController(ApplicationDbContext dbContext)
         {
             this.dbContext = dbContext;
         }
@@ -39,6 +39,5 @@ namespace EmployeeAdminPortal.Controllers
 
     public class AddDepartmentDto
     {
-        public string DepartmentName { get; internal set; }
-    }
+public string DepartmentName { get; set; } = string.Empty;    }
 }
