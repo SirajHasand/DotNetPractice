@@ -48,6 +48,18 @@ namespace EmployeeAdminPortal.Controllers
             dbContext.SaveChanges();
             return Ok(departmentEntity);
         }
+        [HttpDelete("{id}")]
+        public IActionResult DeleteDepartment(int id)
+        {
+            var departmentEntity = dbContext.Departments.Include(x => x.Employees).FirstOrDefault(x => x.Id == id);
+            if (departmentEntity == null)
+            {
+                return NotFound();
+            }
+            dbContext.Departments.Remove(departmentEntity);
+            dbContext.SaveChanges();
+            return Ok(departmentEntity);
+        }
     }
 
     public class AddDepartmentDto
