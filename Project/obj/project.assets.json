@@ -88,11 +88,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\YousefXElyas\\OneDrive\\Desktop\\C# .net apps\\Project\\Project.csproj",
+      "projectUniqueName": "D:\\disktop\\DotNetPractice\\Project\\Project.csproj",
       "projectName": "Project",
-      "projectPath": "C:\\Users\\YousefXElyas\\OneDrive\\Desktop\\C# .net apps\\Project\\Project.csproj",
+      "projectPath": "D:\\disktop\\DotNetPractice\\Project\\Project.csproj",
       "packagesPath": "C:\\Users\\YousefXElyas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\YousefXElyas\\OneDrive\\Desktop\\C# .net apps\\Project\\obj\\",
+      "outputPath": "D:\\disktop\\DotNetPractice\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\YousefXElyas\\AppData\\Roaming\\NuGet\\NuGet.Config"
