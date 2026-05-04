@@ -15,7 +15,11 @@ public class Program
         // dbMigrator.Migrate();
         // isntaller.Install();
 
-        var car = new Car("ADF3432");
+        // var car = new Car("ADF3432");
+
+        var video = new Video(){Title = "Video 1"};
+        var videoEncoder = new VideoEncoder();
+        videoEncoder.Encode(video);
         
     }
 

@@ -1,30 +1,15 @@
-C:\Users\YousefXElyas\Desktop\C# .net apps\bin\Debug\net10.0\MyApp.exe
-C:\Users\YousefXElyas\Desktop\C# .net apps\bin\Debug\net10.0\MyApp.deps.json
-C:\Users\YousefXElyas\Desktop\C# .net apps\bin\Debug\net10.0\MyApp.runtimeconfig.json
-C:\Users\YousefXElyas\Desktop\C# .net apps\bin\Debug\net10.0\MyApp.dll
-C:\Users\YousefXElyas\Desktop\C# .net apps\bin\Debug\net10.0\MyApp.pdb
-C:\Users\YousefXElyas\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\YousefXElyas\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.AssemblyInfoInputs.cache
-C:\Users\YousefXElyas\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.AssemblyInfo.cs
-C:\Users\YousefXElyas\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.csproj.CoreCompileInputs.cache
-C:\Users\YousefXElyas\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.dll
-C:\Users\YousefXElyas\Desktop\C# .net apps\obj\Debug\net10.0\refint\MyApp.dll
-C:\Users\YousefXElyas\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.pdb
-C:\Users\YousefXElyas\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.genruntimeconfig.cache
-C:\Users\YousefXElyas\Desktop\C# .net apps\obj\Debug\net10.0\ref\MyApp.dll
-C:\Users\YousefXElyas\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.sourcelink.json
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\bin\Debug\net10.0\MyApp.exe
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\bin\Debug\net10.0\MyApp.deps.json
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\bin\Debug\net10.0\MyApp.runtimeconfig.json
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\bin\Debug\net10.0\MyApp.dll
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\bin\Debug\net10.0\MyApp.pdb
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.AssemblyInfoInputs.cache
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.AssemblyInfo.cs
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.csproj.CoreCompileInputs.cache
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.sourcelink.json
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.dll
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\obj\Debug\net10.0\refint\MyApp.dll
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.pdb
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\obj\Debug\net10.0\MyApp.genruntimeconfig.cache
-C:\Users\YousefXElyas\OneDrive\Desktop\C# .net apps\obj\Debug\net10.0\ref\MyApp.dll
+D:\disktop\DotNetPractice\exercise\bin\Debug\net10.0\MyApp.exe
+D:\disktop\DotNetPractice\exercise\bin\Debug\net10.0\MyApp.deps.json
+D:\disktop\DotNetPractice\exercise\bin\Debug\net10.0\MyApp.runtimeconfig.json
+D:\disktop\DotNetPractice\exercise\bin\Debug\net10.0\MyApp.dll
+D:\disktop\DotNetPractice\exercise\bin\Debug\net10.0\MyApp.pdb
+D:\disktop\DotNetPractice\exercise\obj\Debug\net10.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\disktop\DotNetPractice\exercise\obj\Debug\net10.0\MyApp.AssemblyInfoInputs.cache
+D:\disktop\DotNetPractice\exercise\obj\Debug\net10.0\MyApp.AssemblyInfo.cs
+D:\disktop\DotNetPractice\exercise\obj\Debug\net10.0\MyApp.csproj.CoreCompileInputs.cache
+D:\disktop\DotNetPractice\exercise\obj\Debug\net10.0\MyApp.sourcelink.json
+D:\disktop\DotNetPractice\exercise\obj\Debug\net10.0\MyApp.dll
+D:\disktop\DotNetPractice\exercise\obj\Debug\net10.0\refint\MyApp.dll
+D:\disktop\DotNetPractice\exercise\obj\Debug\net10.0\MyApp.pdb
+D:\disktop\DotNetPractice\exercise\obj\Debug\net10.0\MyApp.genruntimeconfig.cache
+D:\disktop\DotNetPractice\exercise\obj\Debug\net10.0\ref\MyApp.dll

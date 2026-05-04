@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\disktop\\DotNetPractice\\MyApp.csproj": {}
+    "D:\\disktop\\DotNetPractice\\exercise\\MyApp.csproj": {}
   },
   "projects": {
-    "D:\\disktop\\DotNetPractice\\MyApp.csproj": {
+    "D:\\disktop\\DotNetPractice\\exercise\\MyApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\disktop\\DotNetPractice\\MyApp.csproj",
+        "projectUniqueName": "D:\\disktop\\DotNetPractice\\exercise\\MyApp.csproj",
         "projectName": "MyApp",
-        "projectPath": "D:\\disktop\\DotNetPractice\\MyApp.csproj",
+        "projectPath": "D:\\disktop\\DotNetPractice\\exercise\\MyApp.csproj",
         "packagesPath": "C:\\Users\\YousefXElyas\\.nuget\\packages\\",
-        "outputPath": "D:\\disktop\\DotNetPractice\\obj\\",
+        "outputPath": "D:\\disktop\\DotNetPractice\\exercise\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\YousefXElyas\\AppData\\Roaming\\NuGet\\NuGet.Config"
