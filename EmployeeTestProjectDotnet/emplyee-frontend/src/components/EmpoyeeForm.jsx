@@ -1,7 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { createEmployee, updateEmployee, getEmployee, getAllDepartments } from '../api/api';
-
+// The logic of this component is to add or edit employee
+// It uses React hooks such as useState and useEffect to manage the component's state and side effects
+// It also uses the useParams hook to get the id parameter from the URL, which is used to determine whether to add a new employee or edit an existing one
+// If id exists then edit, if id does not exist then add new employee
+// If id exists then edit employee, if id does not exist then add new employee
+// use this form for add new employee or edit existing employee, depending on the id parameter in the URL
 function EmployeeForm() {
   const { id } = useParams();
   const navigate = useNavigate();
