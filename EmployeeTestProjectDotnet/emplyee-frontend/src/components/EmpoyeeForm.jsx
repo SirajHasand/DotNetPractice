@@ -15,16 +15,17 @@ function EmployeeForm() {
   });
   const [loading, setLoading] = useState(false);
 
-  const isEditing = !!id;
+  const isEditing = !!id; // Check if id is truthy, get employee to edit, from API, is Editing mean updating, if id exists then edit
+  // !! mean convert to boolean, !!id is get id from url, if id exists then edit, if id does not exist then add new employee
 
   useEffect(() => {
-    loadDepartments();
+    loadDepartments(); // Load departments when the component mounts
     if (isEditing) {
-      loadEmployee();
+      loadEmployee(); // Load employee data if editing
     }
   }, [id]);
 
-  const loadDepartments = async () => {
+  const loadDepartments = async () => { // Load departments when the component mounts
     try {
       const response = await getAllDepartments();
       setDepartments(response.data);
@@ -33,7 +34,7 @@ function EmployeeForm() {
     }
   };
 
-  const loadEmployee = async () => {
+  const loadEmployee = async () => { // Load employee data if editing   
     try {
       const response = await getEmployee(id);
       const employee = response.data;
@@ -57,26 +58,26 @@ function EmployeeForm() {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Prevent default form submission behavior
     setLoading(true);
     try {
-      const data = {
+      const data = { // Create employee data object from form values
         name: formData.name,
         email: formData.email,
         phone: formData.phone,
         salary: parseFloat(formData.salary),
         departmentId: formData.departmentId
       };
-      if (isEditing) {
+      if (isEditing) { // If editing, update employee with id using updated data
         await updateEmployee(id, data);
-      } else {
+      } else { // If not editing, create new employee using data
         await createEmployee(data);
       }
-      navigate('/');
+      navigate('/'); // Navigate to employee list page after saving
     } catch (err) {
-      console.error('Error saving employee:', err);
+      console.error('Error saving employee:', err); // Log error if saving employee fails
     } finally {
-      setLoading(false);
+      setLoading(false); // Set loading to false after saving or updating employee
     }
   };
 
@@ -98,8 +99,8 @@ function EmployeeForm() {
             <input
               type="text"
               name="name"
-              value={formData.name}
-              onChange={handleChange}
+              value={formData.name} // value mean the value of the input field, come from formData.name
+              onChange={handleChange} // Handle name input change
               required
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
@@ -110,7 +111,7 @@ function EmployeeForm() {
             <input
               type="email"
               name="email"
-              value={formData.email}
+              value={formData.email}//
               onChange={handleChange}
               required
               className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
