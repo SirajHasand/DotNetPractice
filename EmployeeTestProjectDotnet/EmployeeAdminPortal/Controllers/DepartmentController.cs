@@ -37,24 +37,36 @@ namespace EmployeeAdminPortal.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteDepartment(int id)
+        public IActionResult DeleteDepartment(Guid id)
         {            var departmentEntity = dbContext.Departments.Find(id);
             if (departmentEntity == null)
             {
-                return NotFound();
+                return NotFound("Department not found");
             }
             dbContext.Departments.Remove(departmentEntity);
             dbContext.SaveChanges();
             return Ok(departmentEntity);
         }
         [HttpGet("{id}")]
-        public IActionResult GetDepartmentById(int id)
+        public IActionResult GetDepartmentById(Guid id)
         {
            var departmentEntity = dbContext.Departments.Find(id);
             if (departmentEntity == null)
             {
                 return NotFound();
             }
+            return Ok(departmentEntity);
+        }
+            [HttpPut("{id}")]
+        public IActionResult UpdateDepartment(Guid id, AddDepartmentDto updateDepartmentDto)
+        {
+            var departmentEntity = dbContext.Departments.Find(id);
+            if (departmentEntity == null)
+            {
+                return NotFound("Department not found");
+            }
+            departmentEntity.DepartmentName = updateDepartmentDto.DepartmentName;
+            dbContext.SaveChanges();
             return Ok(departmentEntity);
         }
     }

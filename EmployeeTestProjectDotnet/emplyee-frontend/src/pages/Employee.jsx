@@ -13,7 +13,7 @@ function Employee() {
     try {
       const response = await getAllEmployees();
       setEmployees(response.data);
-      setFilteredEmployees(response.data);
+      setFilteredEmployees(response.data); // this is to set the filtered employees to the same as the employees, so that when the search term is empty, it will show all the employees
     } catch (err) {
       console.error("Error loading employees:", err);
       setEmployees([]);
@@ -56,10 +56,15 @@ function Employee() {
           </p>
         </div>
         <div>
-          <button className="font-bold bg-blue-400 text-white p-3 rounded-lg"
+          <button className="font-bold bg-blue-400 text-white p-3 rounded-lg mr-3"
           onClick={() => window.location.href=(`/add-employee`)}
           >Add New Employee</button>
+          <button className="font-bold bg-green-500 text-white p-3 rounded-lg"
+          onClick={() => window.location.href=(`/Departments`)}
+          >Manage Departments
+          </button>
         </div>
+        
         </div>
 
         {/* Search */}

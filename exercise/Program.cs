@@ -17,9 +17,21 @@ public class Program
 
         // var car = new Car("ADF3432");
 
-        var video = new Video(){Title = "Video 1"};
-        var videoEncoder = new VideoEncoder();
-        videoEncoder.Encode(video);
+        // var video = new Video(){Title = "Video 1"};
+        // var videoEncoder = new VideoEncoder();
+        // videoEncoder.Encode(video);
+
+
+        //exception handling 
+        try{
+        var calculator = new Calculator();
+        var result = calculator.divide(30,0);
+        Console.WriteLine("the Result : ", result);
+        }
+        catch (Exception)
+        {
+            Console.WriteLine("sorry an error occured ...");
+        }
         
     }
 

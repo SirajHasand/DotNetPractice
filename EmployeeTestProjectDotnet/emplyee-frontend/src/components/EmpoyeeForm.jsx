@@ -8,8 +8,8 @@ import { createEmployee, updateEmployee, getEmployee, getAllDepartments } from '
 // If id exists then edit employee, if id does not exist then add new employee
 // use this form for add new employee or edit existing employee, depending on the id parameter in the URL
 function EmployeeForm() {
-  const { id } = useParams();
-  const navigate = useNavigate();
+  const { id } = (useParams()); // Get id from URL parameters
+  const navigate = useNavigate();   // Get navigate function from react-router-dom to programmatically navigate to different routes 
   const [departments, setDepartments] = useState([]);
   const [formData, setFormData] = useState({
     name: '',
@@ -23,7 +23,7 @@ function EmployeeForm() {
   const isEditing = !!id; // Check if id is truthy, get employee to edit, from API, is Editing mean updating, if id exists then edit
   // !! mean convert to boolean, !!id is get id from url, if id exists then edit, if id does not exist then add new employee
 
-  useEffect(() => {
+  useEffect(() => {useParams
     loadDepartments(); // Load departments when the component mounts
     if (isEditing) {
       loadEmployee(); // Load employee data if editing

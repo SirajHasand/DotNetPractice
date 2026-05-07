@@ -250,3 +250,12 @@ D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\obj\Debu
 D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\obj\Debug\net10.0\Employee.3BB47994.Up2Date
 D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\obj\Debug\net10.0\EmployeeAdminPortal.genruntimeconfig.cache
 D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\obj\Debug\net10.0\ref\EmployeeAdminPortal.dll
+D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\bin\Debug\net10.0\BCrypt.Net-Next.dll
+D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+D:\disktop\DotNetPractice\EmployeeTestProjectDotnet\EmployeeAdminPortal\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
